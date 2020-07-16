@@ -1,0 +1,21 @@
+include menu
+link(
+    rel='stylesheet'
+    href='css/users.css'
+)
+
+.wrapper
+    h3 Личный кабинет
+    div(class = 'type_data' ) Имя
+        div(class = 'user_data')  #{name}
+    div(class = 'type_data' ) Фамилия
+        div(class = 'user_data' ) #{surname}
+    div(class = 'type_data' ) Адрес
+        div(class = 'user_data' ) #{address}
+    div(class = 'type_data' ) Электронная почта
+        div(class = 'user_data' ) #{email}
+    div(class = 'type_data') Телефон
+        div(class = 'user_data' ) #{phone}
+
+    a(href='/logout') Выйти
+

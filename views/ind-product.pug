@@ -1,0 +1,28 @@
+include start
+include signin_registr
+
+include menu
+link(
+    rel='stylesheet'
+    href='css/product.css'
+)
+div(class='row')
+    div(class='col-1-2')
+        img(
+            src='img/' + res[0]['img'],
+            class='goods-big-image'
+        )
+    div(class='col-1-2')
+        p(class='panel-title') #{res[0]['name']}
+        hr
+        br
+        p(class='description') #{res[0]['description']}
+        br
+        hr
+        span(class='success') Цена: #{res[0]['price']} руб
+        br
+        br
+        button(class='add-to-card' data-goods_id=res[0]['id_products']) В корзину
+
+
+script(src='/js/cart.js')

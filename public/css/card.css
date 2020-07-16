@@ -1,0 +1,116 @@
+* {box-sizing: border-box;}
+.product-item {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #F5F5F5;
+    background: white;
+    font-family: "Open Sans";
+    transition: .3s ease-in;
+    display:inline-block;
+}
+.product-item:hover {border-bottom: 2px solid #fc5a5a;}
+.product-item img {
+    display: block;
+    width: 100%;
+}
+
+.product-list {
+    background: #fafafa;
+    padding: 15px 0;
+}
+.product-list h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    margin: 0 0 10px 0;
+}
+.price {
+    font-size: 16px;
+    color: #fc5a5a;
+    display: block;
+    margin-bottom: 12px;
+}
+.button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 12px;
+    background: #cccccc;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 28px;
+    transition: .3s ease-in;
+}
+
+.product-item:hover .button {background: #fc5a5a;}
+
+.img{
+    width: 60%;
+    height: 50%;
+}
+
+.block-products{
+    margin-left: 200px;
+}
+
+/* ------------nav ------------------- */
+.site-nav{
+    width: 300px;
+    min-height: 100vh;
+    position: fixed;
+    left: -300px;
+    top: 0;
+    z-index: 999999;
+    padding: 10px;
+    transition: all ease 1s;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.close-button-div{
+    text-align: right;
+    border: 0;
+    background-color: white;
+}
+
+.show-nav{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-top: -70px;
+    border: 0;
+}
+
+.ul.category-list{
+    list-style-type: disc;
+}
+
+ul.category-list a{
+    color: #000000;
+}
+
+.site-nav a {
+    color: #000000;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.close-nav{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 0;
+}
+
+.button-primary-outlined{
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #feb386; /* Рамка */
+}
+
+.block-products{
+    margin-top: 150px;
+}

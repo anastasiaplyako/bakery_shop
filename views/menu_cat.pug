@@ -1,0 +1,28 @@
+include start
+link(
+    rel='stylesheet'
+    href='css/menu_cat.css'
+)
+nav
+    ul.topmenu
+        li
+            a(href='', class="down") Сортировать по
+            ul.submenu
+                li
+                    a(href='/asc') Возрастанию
+                li
+                    a(href='/desc') Убыванию
+        li
+            a(href='', class="down") Выбрать категорию
+            ul.submenu
+                li
+                    a(href='/donut') Пончики
+                li
+                    a(href='/cookies') Печенье
+                li
+                    a(href='/cake') Кексы
+                li
+                    a(href='/candy') Конфеты
+                li
+                    a(href='/bun') Булочки
+

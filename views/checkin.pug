@@ -1,0 +1,37 @@
+include start
+link(
+        rel='stylesheet'
+        href='css/checkin.css'
+    )
+include menu
+div.container
+    form#registr(action="/")
+        h1 Регистрация
+        hr
+        label(for='username') Логин
+        input(type='text' placeholder="Enter username" id="username" name="username" required)
+        label(for='name') Имя
+        input(type='text' placeholder="Enter name" id="name" name="name" required)
+        label(for='surname') Фамилия
+        input(type='text' placeholder="Enter surname" id="surname" name="surname" required)
+        label(for='address') Адрес
+        input(type='text' placeholder="Enter address" id="address" name="address" required)
+        label(for='email') Email
+        input(type='text' placeholder="Enter Email" id="email" name="email" required)
+        label(for='phone') Телефон
+        input(type='text' placeholder="Enter phone" id="phone" name="phone" required)
+        label(for='psw') Пароль
+        input(type='password' placeholder="Enter Password" id="psw" name="psw" required)
+        label(for='pswCheck') Повторите пароль
+        input(type='password' placeholder="Enter Password" id="pswCheck" name="psw1" required)
+        button(type="submit" class="registerbtn" ) Регистрация
+        a(href='/signin' class="registerbtn1"  ) Войти
+
+script(src='js/checkin.js')
+
+div(class="container signin")
+    p Already have an account?
+    a(href="/signin") Sign in
+script(src='https://unpkg.com/sweetalert/dist/sweetalert.min.js')
+
+

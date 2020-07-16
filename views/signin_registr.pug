@@ -1,0 +1,14 @@
+link(
+    rel='stylesheet'
+    href='css/signin-registr.css'
+)
+if(id === null || id === undefined || id === '')
+    ul(class="menu-in")
+        li
+            a(href="/signin" ) Войти
+        li
+            a(href="/checkin" ) Регистрация
+else
+    ul(class="menu-in")
+        li
+            a(href="/users" ) Личный кабинет

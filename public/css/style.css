@@ -1,0 +1,93 @@
+body{
+    background: #c7b39b url(../img/bakery.jpg);
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+
+}
+form {
+    border: 3px solid #f1f1f1;
+}
+
+.form-control{
+    width: 90%;
+    padding: 8px 10px 8px 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+    /* Styles */
+    border: 1px solid #feb386; /* Fallback */
+    border-radius: 2px;
+    box-shadow:
+            0 1px 0 rgba(255, 255, 255, 0.2),
+            inset 0 1px 1px rgba(0,0,0,0.1);
+    /* Font styles */
+    font-family: 'Raleway', 'Lato', Arial, sans-serif;
+    color: #000000;
+    font-size: 13px;
+}
+
+.btnIn{
+    /* Size and position */
+    width: 90%;
+    padding: 8px 5px;
+    margin-left: 10px;
+    /* Styles */
+    background: #feb386;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    /* Font styles */
+    color: black;
+    font-size: 16px;
+    font-family: 'Raleway', 'Lato', Arial, sans-serif;
+}
+
+.form-signin{
+    /* Size and position */
+    width: 500px;
+    margin: 30px auto 30px;
+    padding: 10px;
+    position: relative;
+    background-color: white;
+
+    /* Font styles */
+    font-family: 'Raleway', 'Lato', Arial, sans-serif;
+    color: #000000;
+}
+
+
+/* ------------nav ------------------- */
+.site-nav{
+    width: 300px;
+    min-height: 100vh;
+    position: fixed;
+    left: -300px;
+    top: 0;
+    z-index: 999999;
+    padding: 10px;
+    transition: all ease 1s;
+    color: #fff;
+}
+
+.close-button-div{
+    text-align: right;
+}
+
+.show-nav{
+    position: relative;
+}
+
+.ul.category-list{
+    list-style-type: disc;
+}
+
+ul.category-list a{
+    color: #000000;
+}
+
+.site-nav a {
+    color: #000000;
+}

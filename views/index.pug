@@ -1,0 +1,14 @@
+include start
+link(
+        rel='stylesheet'
+        href='css/style.css'
+    )
+.wrapper
+    form.form-signin(method='post', action='/signin', id='form-signin')
+        h3.form-signin-heading Введите свой логин и пароль
+        if(message)
+            p(style='color:red') #{message}
+        input.form-control(type='text', id = 'username' name='username', placeholder='Username')
+        input.form-control(type='password', id = 'password', name='password', placeholder='Password')
+        label.checkbox
+        button.btnIn(type='submit') Login

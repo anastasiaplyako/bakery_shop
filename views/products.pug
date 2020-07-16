@@ -1,0 +1,29 @@
+link(
+    rel='stylesheet'
+    href='css/card.css'
+)
+include start
+include signin_registr
+
+include menu
+include menu_cat
+
+div.block-products
+    p #{id_user}
+    each val, index in res
+        div.product-item
+            a(href='ind-product?id=' + res[index]['id_products'])
+                img(
+                    src='img/' + res[index]['img']
+                    class='img'
+                )
+            div.product-list
+                h3 #{res[index]['name']}
+                    span.price #{res[index]['price']}
+                    a(
+                        href=""
+                        data-goods_id = res[index]['id_products']
+                        class="button"
+                        class="add-to-card"
+                    ) В корзину
+script(src='/js/cart.js')

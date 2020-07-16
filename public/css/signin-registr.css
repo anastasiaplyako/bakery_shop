@@ -1,0 +1,31 @@
+.signin-regist{
+    margin-left: 20px;
+}
+
+.menu-in {
+    margin-left: 950px;
+    list-style: none;
+    padding: 25px 0 5px;
+    text-align: center;
+    background: white;
+}
+.menu-in li {display: inline-block;}
+.menu-in li:after {
+    content: "/";
+    color: #feb386;
+    display: inline-block;
+    vertical-align:top;
+}
+.menu-in li:last-child:after {content: none;}
+.menu-in a {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    margin: 0 15px 0 15px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+    color: #9d999d;
+}

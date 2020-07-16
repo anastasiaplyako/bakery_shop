@@ -1,0 +1,57 @@
+.product_cart{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+}
+
+.type_data{
+
+}
+
+.user_data{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.cart-nav{
+    margin: 5px 0 22px 0;
+}
+
+.table-cart{
+    width: 100%;
+}
+/*------table----*/
+table {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    border-collapse: collapse;
+    color: black;
+}
+caption {
+    padding: 10px;
+    color: white;
+    background: #8FD4C1;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+}
+th {
+    border-bottom: 3px solid #f1f1f1;
+    padding: 10px;
+    text-align: left;
+}
+td {
+    padding: 10px;
+}
+tr:nth-child(odd) {
+    background: white;
+}
+tr:nth-child(even) {
+    background: #f1f1f1;
+}

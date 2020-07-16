@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
+.rigth{
+    width:110px;
+    height:50px;
+    background:#f1f1f1;
+    float:left;
+    margin: 0 15px 15px 0;
+    text-align:center;
+    padding: 10px;
+}
+
+.goods-big-image{
+    height: 340px;
+    width: 290px;
+    margin-left: 300px;
+}
+
+.wrap{
+    margin-left: 370px;
+}
+
+.panel-title{
+    font-size: 2.25em;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-top: -10px;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+}
+
+.description{
+    margin-right: 300px;
+    font-size: 1.25em;
+    margin-top: -8px;
+}
+
+hr{
+    border: none; /* Убираем границу */
+    background-color: #feb386;
+    color: #feb386;
+    height: 2px;
+    margin-top: -20px;
+    margin-right: 300px;
+}
+
+.success{
+    font-size: 1.25em;
+}
+
+.add-to-card{
+    background-color: #feb386;
+    border: 0;
+    height: 40px;
+    width: 350px;
+    margin-top: 70px;
+}
