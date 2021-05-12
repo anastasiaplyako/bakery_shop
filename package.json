@@ -21,7 +21,7 @@
     "memory": "0.0.3",
     "mustard-ui": "^1.0.4",
     "mysql": "^2.18.1",
-    "nodemailer": "^6.4.10",
+    "nodemailer": "^6.4.16",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "pug": "^3.0.0",
